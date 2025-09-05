@@ -10,6 +10,6 @@ const verifyToken=(req,res,next)=>{
   }
  const verifiedToken= jwt.verify(token,"secret12345")
  req.user=verifiedToken;
- next();
+ next(); 
 }
 module.exports=verifyToken;
