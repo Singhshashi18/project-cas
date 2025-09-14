@@ -1,12 +1,4 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//     const socket = io("http://localhost:3000");
-//     const messageList = document.querySelector("#messages");
-//     const messageInput = document.querySelector("#messageInput");
-//     const sendButton = document.querySelector("#sendButton");
-//     if (!messageList || !messageInput || !sendButton) {
-//         console.error("One or more elements not found!");
-//         return;
-//     }
+
 //     const sendMessage = () => {
 //         const message = messageInput.value.trim();
 //         if (message) {

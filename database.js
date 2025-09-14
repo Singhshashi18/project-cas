@@ -1,14 +1,3 @@
-//  const mongoose = require("mongoose");
-
-// const connectDb= async ()=>{`mongod
-//   try{
-//     await mongoose.connect(`mongodb://127.0.0.1:27017/nitinDb`);
-//     console.log("mongodb connection successfully")
-//   }catch(error){
-//     console.error("mongodb connection error",error);
-//   }
-// }
-// module.exports = connectDb;
 
 // const mongoose = require("mongoose");
 
