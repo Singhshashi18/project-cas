@@ -2,7 +2,7 @@
 
 const jwt=require("jsonwebtoken")
 
-//use custom middleware to verify the token
+
 const verifyToken=(req,res,next)=>{
   const token=req.headers["authorization"];
   if(!token){
