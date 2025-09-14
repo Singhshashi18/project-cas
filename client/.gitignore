@@ -19,4 +19,4 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
-
+.env
